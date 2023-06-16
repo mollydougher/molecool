@@ -5,7 +5,22 @@ This file contains functions relevent to measure properties of molecules.
 import numpy as np
 
 def calculate_distance(rA, rB):
-    # This function calculates the distance between two points given as numpy arrays.
+    """
+    This function calculates the diftance between two atoms in Cartesian coordinates.
+
+    Parameters
+    ----------
+    rA : float
+        Position of the first atom.
+    
+    rB : float
+        Position of the second atom.
+
+    Returns
+    -------
+    distance : float
+        The distance between the two atoms.
+    """
     d=(rA-rB)
     dist=np.linalg.norm(d)
     return dist
