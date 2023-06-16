@@ -6,7 +6,7 @@ from .functions import canvas
 from molecool.measure import calculate_distance, calculate_angle
 from molecool.atom_data import atom_colors, atomic_weights
 from molecool.visualization import draw_molecule
-from molecool.molecules import bond_histogram, build_bond_list
+from molecool.molecules import bond_histogram, build_bond_list, compute_molecular_mass
 from molecool.io import open_pdb
 # from molecool import io --> this will also work
 
